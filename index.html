@@ -38,10 +38,10 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#presentation">Présentation</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#specificites">Spécificités</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#outils">Outils</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#utilisation">Utilisation</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#exemples">Exemples</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#distingue">Ce qui le distingue</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#succes">Succès</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sources">Sources</a></li>
                 </ul>
@@ -53,21 +53,87 @@
     <header class="masthead">
         <div class="container d-flex h-100 align-items-center">
             <div class="mx-auto text-center">
-                <h1 class="mx-auto my-0 text-uppercase">Rust</h1>
+                <h1 class="mx-auto my-0 text-uppercase">Langage Rust</h1>
                 <h2 class="text-white-50 mx-auto mt-2 mb-5">
-                    Texte
+                    Bienvenue sur ce site web dédié à la découverte du langage Rust ! 
                 </h2>
+                <p>
+                    Quelques mots pour présenter le langage (mettre une petite vidéo pour introduire ???)
+                </p>
                 <a class="btn btn-primary js-scroll-trigger" href="#presentation">Découvrir !</a>
             </div>
         </div>
     </header>
+
 
     <!-- Présentation -->
     <section class="about-section text-center" id="presentation">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white mb-4">Titre</h2>
+                    <h2 class="text-white mb-4">Présentation & Historique</h2>
+                    <p class="text-white-50">
+                        Rust est un langage de programmation libre et compilé conçu par Mozilla Research et disponible sur Windows, MacOS et Linux.
+                         Il est multi-paradigme, plus précisément impératif (en séquence), fonctionnel, procédural et orienté objet sous certains aspects. 
+                         Il est fiable et pratique. De plus, il a pour but d’être concurrent (prend en compte des threads et processus). <br> <br>
+
+                        À la base développée par Graydon Hoare dans le cadre d’un projet personnel en 2006, son employeur, Mozilla, commence sa participation en 2009
+                        et est actuellement son concepteur et développeur depuis 2010. Il passera d’un compilateur, initialement écrit en OCaml, à un compilateur 
+                        écrit en Rust appelé rustc en 2011, avec une première version alpha en 2012. Rust aura sa en version stable (1.0) en 2015.<br> <br>
+ 
+
+                        Il est aujourd’hui utilisé dans divers programmes système, applications en ligne de commande, applications web, services réseaux 
+                        et systèmes embarqués. 
+                    </p>
+                </div>
+            </div>
+            <img class="img-fluid" src="assets/img/ipad.png" alt="" />
+        </div>
+    </section>
+    <section class="contact-section bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chart-line text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Performance</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">Rust est terriblement rapide et économique au niveau de la mémoire. 
+                                Il peut dynamiser des services à hautes performances et s'intègre facilement à d'autres langages.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-check-circle text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Fiabilité</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">Le puissant système permet d'éliminer de nombreuses variétés de bugs dès la compilation.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-briefcase text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Productivité</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">Rust dispose d'une excellente documentation, d'un compilateur bienveillant, avec des messages d'erreur utiles. </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spécificités -->
+    <section class="about-section text-center" id="specificites">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-white mb-4">Spécificités</h2>
                     <p class="text-white-50">
                         Texte
                     </p>
@@ -82,7 +148,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white mb-4">Titre</h2>
+                    <h2 class="text-white mb-4">Les outils</h2>
                     <p class="text-white-50">
                         Texte
                     </p>
@@ -97,7 +163,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white mb-4">Titre</h2>
+                    <h2 class="text-white mb-4">Installation & Utilisation</h2>
                     <p class="text-white-50">
                         Texte
                     </p>
@@ -164,27 +230,13 @@
         </div>
     </section>
     
-    <!-- Ce qui le distingue -->
-    <section class="about-section text-center" id="distingue">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white mb-4">Titre</h2>
-                    <p class="text-white-50">
-                        Texte
-                    </p>
-                </div>
-            </div>
-            <img class="img-fluid" src="assets/img/ipad.png" alt="" />
-        </div>
-    </section>
 
     <!-- Succès -->
     <section class="about-section text-center" id="succes">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white mb-4">Titre</h2>
+                    <h2 class="text-white mb-4">Succès</h2>
                     <p class="text-white-50">
                         Texte
                     </p>
@@ -199,9 +251,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white mb-4">Titre</h2>
+                    <h2 class="text-white mb-4">Sources</h2>
                     <p class="text-white-50">
-                        Texte
+                        Peut-être mettre les sources sur une autre page ????
                     </p>
                 </div>
             </div>
