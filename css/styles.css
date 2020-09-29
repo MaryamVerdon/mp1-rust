@@ -160,12 +160,12 @@ sup {
 }
 
 a {
-  color: #64a19d;
+  color: #d90429;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #467370;
+  color: #734646;
   text-decoration: underline;
 }
 
@@ -10363,4 +10363,11 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+/* CSS Site */
+
+.pre-code {
+  overflow: hidden; 
+  white-space: pre-line;
 }
