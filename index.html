@@ -37,10 +37,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#historique">Historique</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#presentation">Présentation</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#specificites">Spécificités</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#outils">Outils</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#utilisation">Spécificités</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#exemples">Installation & Utilisation</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#utilisation">Utilisation</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#exemples">Exemples</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#succes">Succès</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sources">Sources</a></li>
                 </ul>
@@ -56,29 +57,21 @@
                 <h2 class="text-white-50 mx-auto mt-2 mb-5">
                     Bienvenue sur ce site web dédié à la découverte du langage Rust ! 
                 </h2>
-                <a class="btn btn-primary js-scroll-trigger" href="#intro">Découvrir !</a>
+                <p>
+                    Quelques mots pour présenter le langage (mettre une petite vidéo pour introduire ???)
+                </p>
+                <a class="btn btn-primary js-scroll-trigger" href="#presentation">Découvrir !</a>
             </div>
         </div>
     </header>
 
-     <!-- Introduction-->
-     <section class="about-section text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white mb-4">Introduction</h2>
-                    <p class="text-white-50">
-                        Quelques mots pour présenter le langage (mettre une petite vidéo pour introduire ???)
-                    </p>
-                </div>
-    </section>
 
-    <!-- Historique -->
-    <section class="about-section text-center" id="historique">
+    <!-- Présentation -->
+    <section class="about-section text-center" id="presentation">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white mb-4">Historique</h2>
+                    <h2 class="text-white mb-4">Présentation & Historique</h2>
                     <p class="text-white-50">
                         Rust est un langage de programmation libre et compilé conçu par Mozilla Research et disponible sur Windows, MacOS et Linux.
                          Il est multi-paradigme, plus précisément impératif (en séquence), fonctionnel, procédural et orienté objet sous certains aspects. 
@@ -92,109 +85,55 @@
                         Il est aujourd’hui utilisé dans divers programmes système, applications en ligne de commande, applications web, services réseaux 
                         et systèmes embarqués. 
                     </p>
-                </div> 
+                </div>
+            </div>
+            <img class="img-fluid" src="assets/img/ipad.png" alt="" />
+        </div>
     </section>
     <section class="contact-section bg-black">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-chart-line text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Performance</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">Rust est terriblement rapide et économique au niveau de la mémoire. 
-                                    Il peut dynamiser des services à hautes performances et s'intègre facilement à d'autres langages.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-check-circle text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Fiabilité</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">Le puissant système permet d'éliminer de nombreuses variétés de bugs dès la compilation.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-briefcase text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Productivité</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">Rust dispose d'une excellente documentation, d'un compilateur bienveillant, avec des messages d'erreur utiles. </div>
-                            </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chart-line text-danger mb-2"></i>
+                            <h4 class="text-uppercase m-0">Performance</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">Rust est terriblement rapide et économique au niveau de la mémoire. 
+                                Il peut dynamiser des services à hautes performances et s'intègre facilement à d'autres langages.</div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-
-
-    <!-- Outils -->
-    <section class="about-section bg-black text-center" id="outils">
-        <div class="container">
-            <h2 class="text-white mb-4">Les outils</h2>
-            <div class="column">
-                    <div class="col-md-6 mb-3 mb-md-4 offset-md-3">
-                            <div class="card py-4 h-100">
-                                <div class="card-body text-center">
-                                    <h4 class="text-uppercase font-weight-bold">Outils</h4>
-                                    <hr class="my-4" />
-                                    <div class="text-black">Rust embarque tous les outils essentiels dont a besoin un développeur, centralisé à un seul et même endroit. Il dispose de : 
-                                        <br><br>
-                                        <li>rustup, un gestionnaire de toolchains avec rustc, cargo, rust-fmt, etc. (paquets pour la compilation et autres) et un gestionnaire de version pour 
-                                            chaque canal de release (nightly, beta, stable) via le GitHub de Rust afin d’installer et de garder à jour Rust.
-                                        </li>
-                                        <li>
-                                                cargo, un gestionnaire de paquets et surout un gestionnaire de projets qui permet un agencement modulaire des différents composants. 
-                                        </li>
-                                        <br>Ces outils permettent la génération rapide de projet, le développeur peut ainsi se mettre au travail rapidement avec le strict minimum. 
-                                    </div>
-                                </div>
-                            </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-check-circle text-danger mb-2"></i>
+                            <h4 class="text-uppercase m-0">Fiabilité</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">Le puissant système permet d'éliminer de nombreuses variétés de bugs dès la compilation.</div>
                         </div>
-                        <div class="col-md-6 mb-md-0 offset-md-3">
-                            <div class="card py-4 h-100">
-                                <div class="card-body text-center">
-                                    <h4 class="text-uppercase font-weight-bold">Plugin</h4>
-                                    <hr class="my-4" />
-                                    <div class="text-black">Rust dispose de son propre plugin à travers plusieurs IDE (Environnement de développement intégré) : 
-                                        <br><br>
-                                        <li>Visual Studio : VisualRust, et peut donc être utilisé comme n’importe quel projet C#, F#, C++, ou autre langage supporté par la plateforme. </li>
-                                        <li>Les IDE de JetBrains (PhpStorm, etc.) : IntelliJ Rust. </li>
-                                    </div>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-briefcase text-danger mb-2"></i>
+                            <h4 class="text-uppercase m-0">Productivité</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">Rust dispose d'une excellente documentation, d'un compilateur bienveillant, avec des messages d'erreur utiles. </div>
                         </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-     <!-- Spécificité -->
-     <section class="about-section text-center" id="outils">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">Spécificité</h2>
-                        <p class="text-white-50">
-                            Texte
-                        </p>
-                    </div>
-                </div>
-                <img class="img-fluid" src="assets/img/ipad.png" alt="" />
-            </div>
-        </section>
-
-    <!-- Utilisation -->
-    <section class="about-section text-center" id="utilisation">
+    <!-- Spécificités -->
+    <section class="about-section text-center" id="specificites">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white mb-4">Installation & Utilisation</h2>
+                    <h2 class="text-white mb-4">Spécificités</h2>
                     <p class="text-white-50">
                         Texte
                     </p>
@@ -204,9 +143,87 @@
         </div>
     </section>
 
-    <!-- Exemples-->
-    <section class="projects-section bg-light" id="exemples">
+    <!-- Outils -->
+    <section class="about-section bg-black text-center" id="outils">
+            <div class="container">
+                <h2 class="text-white mb-4">Les outils</h2>
+                <div class="column">
+                        <div class="col-md-8 mb-3 mb-md-4 offset-md-2">
+                                <div class="card py-4 h-100">
+                                    <div class="card-body text-center">
+                                        <h4 class="text-uppercase font-weight-bold">Outils</h4>
+                                        <hr class="my-4" />
+                                        <div class="text-black">Rust embarque tous les outils essentiels dont a besoin un développeur, centralisé à un seul et même endroit. Il dispose de : 
+                                            <br><br>
+                                            <li>rustup, un gestionnaire de toolchains avec rustc, cargo, rust-fmt, etc. (paquets pour la compilation et autres) et un gestionnaire de version pour 
+                                                chaque canal de release (nightly, beta, stable) via le GitHub de Rust afin d’installer et de garder à jour Rust.
+                                            </li>
+                                            <li>
+                                                    cargo, un gestionnaire de paquets et surout un gestionnaire de projets qui permet un agencement modulaire des différents composants. 
+                                            </li>
+                                            <br>Ces outils permettent la génération rapide de projet, le développeur peut ainsi se mettre au travail rapidement avec le strict minimum. 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8 mb-md-0 offset-md-2">
+                                <div class="card py-4 h-100">
+                                    <div class="card-body text-center">
+                                        <h4 class="text-uppercase font-weight-bold">Plugin</h4>
+                                        <hr class="my-4" />
+                                        <div class="text-black">Rust dispose de son propre plugin à travers plusieurs IDE  : 
+                                            <br><br>
+                                            <li>Visual Studio : VisualRust, et peut donc être utilisé comme n’importe quel projet C#, F#, C++, ou autre langage supporté par la plateforme. </li>
+                                            <li>Les IDE (Environnement de développement intégré) de JetBrains (PhpStorm...) : IntelliJ Rust. </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </section>
+    
+    
+
+     <!-- Installation & Utilisation -->
+     <section class="about-section bg-black text-center pb-4" id="utilisation">
         <div class="container">
+            <h2 class="text-white mb-4">Installation & Utilisation</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto card py-4 h-100">
+                    <p class="text-black">
+                        Pour utiliser Rust, Il faut donc au préalable <a
+                            href="https://www.rust-lang.org/fr/tools/install" target="_blank">installer rustup</a>.
+                    </p>
+                    <p class="text-black">
+                        Par la suite, nous pouvons créer un projet Rust via la commande <strong>cargo new
+                            <em>nomProjet</em></strong> (<a href="https://www.rust-lang.org/fr/learn/get-started"
+                            target="_blank">Commencer Rust</a>), puis <strong>cargo run</strong> (en étant dans le
+                        projet) pour compiler et lancer le programme. On peut éditer le code dans « <strong>src</strong>
+                        » dans le fichier « <strong>main.rs</strong> ».
+                    </p>
+                    <p class="text-black">
+                        Nous pouvons aussi créer uniquement un fichier « <strong>.rs</strong> » pour un petit programme
+                        simple, que l’on compile avec la commande <strong>rustc <em>nom</em>.rs</strong> pour compiler
+                        et générer un fichier .exe que l’on peut exécuter dans le terminal
+                        <strong><em>nom</em>.exe</strong>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Exemples-->
+    <section class="project-section bg-ligh text-center" id="exemples">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-black mt-4">Exemples de programmes</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container projects-section bg-ligh pt-5 pb-6">
             <!-- Programme 1 -->
             <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="" /></div>
@@ -260,7 +277,6 @@
             </div>
         </div>
     </section>
-    
 
     <!-- Succès -->
     <section class="about-section text-center" id="succes">
