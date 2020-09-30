@@ -90,6 +90,7 @@ p {
   margin-bottom: 1rem;
 }
 
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -10146,7 +10147,7 @@ body {
   font-size: 80%;
   padding: 0.75rem;
   color: #d90429;
-  border: 1px solid #64a19d;
+  border: 1px solid #d90429;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;

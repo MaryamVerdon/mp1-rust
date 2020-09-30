@@ -23,8 +23,6 @@
     <!-- CSS + Bootstrap inclus-->
     <link href="css/styles.css" rel="stylesheet" />
 
-    <!-- CSS du site -->
-    <link href="css/general.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
@@ -58,9 +56,11 @@
             <div class="mx-auto text-center">
                 <h1 class="mx-auto my-0 text-uppercase">Langage Rust</h1>
                 <h2 class="text-white-50 mx-auto mt-2 mb-5">
-                    Bienvenue sur ce site web dédié à la découverte du langage Rust !
+                    Bienvenue sur ce site web dédié à la découverte du langage Rust ! 
                 </h2>
-                <!-- <p>Quelques mots pour présenter le langage (mettre une petite vidéo pour introduire ???)</p> -->
+                <p>
+                    Quelques mots pour présenter le langage (mettre une petite vidéo pour introduire ???)
+                </p>
                 <a class="btn btn-primary js-scroll-trigger" href="#presentation">Découvrir !</a>
             </div>
         </div>
@@ -68,33 +68,27 @@
 
 
     <!-- Présentation -->
-    <section class="about-section bg-black text-center" id="presentation">
+    <section class="about-section text-center" id="presentation">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2 class="text-white mb-4">Présentation & Historique</h2>
                     <p class="text-white-50">
-                        Rust est un langage de programmation libre et compilé conçu par Mozilla Research et disponible
-                        sur Windows, MacOS et Linux.
-                        Il est multi-paradigme, plus précisément impératif (en séquence), fonctionnel, procédural et
-                        orienté objet sous certains aspects.
-                        Il est fiable et pratique. De plus, il a pour but d’être concurrent (prend en compte des threads
-                        et processus). <br> <br>
+                        Rust est un langage de programmation libre et compilé conçu par Mozilla Research et disponible sur Windows, MacOS et Linux.
+                         Il est multi-paradigme, plus précisément impératif (en séquence), fonctionnel, procédural et orienté objet sous certains aspects. 
+                         Il est fiable et pratique. De plus, il a pour but d’être concurrent (prend en compte des threads et processus). <br> <br>
 
-                        À la base développée par Graydon Hoare dans le cadre d’un projet personnel en 2006, son
-                        employeur, Mozilla, commence sa participation en 2009
-                        et est actuellement son concepteur et développeur depuis 2010. Il passera d’un compilateur,
-                        initialement écrit en OCaml, à un compilateur
-                        écrit en Rust appelé rustc en 2011, avec une première version alpha en 2012. Rust aura sa en
-                        version stable (1.0) en 2015.<br> <br>
+                        À la base développée par Graydon Hoare dans le cadre d’un projet personnel en 2006, son employeur, Mozilla, commence sa participation en 2009
+                        et est actuellement son concepteur et développeur depuis 2010. Il passera d’un compilateur, initialement écrit en OCaml, à un compilateur 
+                        écrit en Rust appelé rustc en 2011, avec une première version alpha en 2012. Rust aura sa en version stable (1.0) en 2015.<br> <br>
+ 
 
-
-                        Il est aujourd’hui utilisé dans divers programmes système, applications en ligne de commande,
-                        applications web, services réseaux
-                        et systèmes embarqués.
+                        Il est aujourd’hui utilisé dans divers programmes système, applications en ligne de commande, applications web, services réseaux 
+                        et systèmes embarqués. 
                     </p>
                 </div>
             </div>
+            <img class="img-fluid" src="assets/img/ipad.png" alt="" />
         </div>
     </section>
     <section class="contact-section bg-black">
@@ -106,10 +100,8 @@
                             <i class="fas fa-chart-line text-danger mb-2"></i>
                             <h4 class="text-uppercase m-0">Performance</h4>
                             <hr class="my-4" />
-                            <div class="small text-black-50">Rust est terriblement rapide et économique au niveau de la
-                                mémoire.
-                                Il peut dynamiser des services à hautes performances et s'intègre facilement à d'autres
-                                langages.</div>
+                            <div class="small text-black-50">Rust est terriblement rapide et économique au niveau de la mémoire. 
+                                Il peut dynamiser des services à hautes performances et s'intègre facilement à d'autres langages.</div>
                         </div>
                     </div>
                 </div>
@@ -119,8 +111,7 @@
                             <i class="fas fa-check-circle text-danger mb-2"></i>
                             <h4 class="text-uppercase m-0">Fiabilité</h4>
                             <hr class="my-4" />
-                            <div class="small text-black-50">Le puissant système permet d'éliminer de nombreuses
-                                variétés de bugs dès la compilation.</div>
+                            <div class="small text-black-50">Le puissant système permet d'éliminer de nombreuses variétés de bugs dès la compilation.</div>
                         </div>
                     </div>
                 </div>
@@ -130,8 +121,7 @@
                             <i class="fas fa-briefcase text-danger mb-2"></i>
                             <h4 class="text-uppercase m-0">Productivité</h4>
                             <hr class="my-4" />
-                            <div class="small text-black-50">Rust dispose d'une excellente documentation, d'un
-                                compilateur bienveillant, avec des messages d'erreur utiles. </div>
+                            <div class="small text-black-50">Rust dispose d'une excellente documentation, d'un compilateur bienveillant, avec des messages d'erreur utiles. </div>
                         </div>
                     </div>
                 </div>
@@ -140,7 +130,7 @@
     </section>
 
     <!-- Spécificités -->
-    <section class="about-section bg-black text-center" id="specificites">
+    <section class="about-section text-center" id="specificites">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
@@ -150,58 +140,54 @@
                     </p>
                 </div>
             </div>
+            <img class="img-fluid" src="assets/img/ipad.png" alt="" />
         </div>
     </section>
 
     <!-- Outils -->
     <section class="about-section bg-black text-center" id="outils">
-        <div class="container">
-            <h2 class="text-white mb-4">Les outils</h2>
-            <div class="column">
-                <div class="col-md-8 mb-3 mb-md-4 offset-md-2">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <h4 class="text-uppercase font-weight-bold">Outils</h4>
-                            <hr class="my-4" />
-                            <div class="text-black">Rust embarque tous les outils essentiels dont a besoin un
-                                développeur, centralisé à un seul et même endroit. Il dispose de :
-                                <br><br>
-                                <li>rustup, un gestionnaire de toolchains avec rustc, cargo, rust-fmt, etc. (paquets
-                                    pour la compilation et autres) et un gestionnaire de version pour
-                                    chaque canal de release (nightly, beta, stable) via le GitHub de Rust afin
-                                    d’installer et de garder à jour Rust.
-                                </li>
-                                <li>
-                                    cargo, un gestionnaire de paquets et surout un gestionnaire de projets qui permet un
-                                    agencement modulaire des différents composants.
-                                </li>
-                                <br>Ces outils permettent la génération rapide de projet, le développeur peut ainsi se
-                                mettre au travail rapidement avec le strict minimum.
+            <div class="container">
+                <h2 class="text-white mb-4">Les outils</h2>
+                <div class="column">
+                        <div class="col-md-8 mb-3 mb-md-4 offset-md-2">
+                                <div class="card py-4 h-100">
+                                    <div class="card-body text-center">
+                                        <h4 class="text-uppercase font-weight-bold">Outils</h4>
+                                        <hr class="my-4" />
+                                        <div class="text-black">Rust embarque tous les outils essentiels dont a besoin un développeur, centralisé à un seul et même endroit. Il dispose de : 
+                                            <br><br>
+                                            <li>rustup, un gestionnaire de toolchains avec rustc, cargo, rust-fmt, etc. (paquets pour la compilation et autres) et un gestionnaire de version pour 
+                                                chaque canal de release (nightly, beta, stable) via le GitHub de Rust afin d’installer et de garder à jour Rust.
+                                            </li>
+                                            <li>
+                                                    cargo, un gestionnaire de paquets et surout un gestionnaire de projets qui permet un agencement modulaire des différents composants. 
+                                            </li>
+                                            <br>Ces outils permettent la génération rapide de projet, le développeur peut ainsi se mettre au travail rapidement avec le strict minimum. 
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-8 mb-md-0 offset-md-2">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <h4 class="text-uppercase font-weight-bold">Plugin</h4>
-                            <hr class="my-4" />
-                            <div class="text-black">Rust dispose de son propre plugin à travers plusieurs IDE :
-                                <br><br>
-                                <li>Visual Studio : VisualRust, et peut donc être utilisé comme n’importe quel projet
-                                    C#, F#, C++, ou autre langage supporté par la plateforme. </li>
-                                <li>Les IDE (Environnement de développement intégré) de JetBrains (PhpStorm...) :
-                                    IntelliJ Rust. </li>
+                            <div class="col-md-8 mb-md-0 offset-md-2">
+                                <div class="card py-4 h-100">
+                                    <div class="card-body text-center">
+                                        <h4 class="text-uppercase font-weight-bold">Plugin</h4>
+                                        <hr class="my-4" />
+                                        <div class="text-black">Rust dispose de son propre plugin à travers plusieurs IDE  : 
+                                            <br><br>
+                                            <li>Visual Studio : VisualRust, et peut donc être utilisé comme n’importe quel projet C#, F#, C++, ou autre langage supporté par la plateforme. </li>
+                                            <li>Les IDE (Environnement de développement intégré) de JetBrains (PhpStorm...) : IntelliJ Rust. </li>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    
+    
 
-    <!-- Installation & Utilisation -->
-    <section class="about-section bg-black text-center" id="utilisation">
+     <!-- Installation & Utilisation -->
+     <section class="about-section bg-black text-center pb-4" id="utilisation">
         <div class="container">
             <h2 class="text-white mb-4">Installation & Utilisation</h2>
             <div class="row">
@@ -228,77 +214,56 @@
         </div>
     </section>
 
+
     <!-- Exemples-->
-    <section class="about-section bg-black text-center" id="exemples">
+    <section class="project-section bg-ligh text-center" id="exemples">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white mb-4">Exemples de programmes</h2>
+                    <h2 class="text-black mt-4">Exemples de programmes</h2>
                 </div>
             </div>
         </div>
-        <div class="container projects-section bg-ligh">
-            <!-- Programme 1 -->
-            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="container projects-section bg-ligh pt-5 pb-5">
+            <!-- Programme 1-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0 bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/programme1.JPG" alt="" /></div>
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4 class="text-white">Afficher « Hello, world ! »</h4>
-                                <pre class="text-white pre-code">
-                                    fn main() {
-                                        println!("Hello, world!");
-                                    }
-                                </pre>
+                                <img src="assets/img/helloword.PNG" alt="code afficher helloword">
                                 <hr class="d-none d-lg-block mb-0 ml-0" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Programme 2 -->
-            <div class="row justify-content-center no-gutters">
+            <!-- Programme 2-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0 bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/programme2.JPG" alt="" /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
                                 <h4 class="text-white">Afficher les tables de multiplication</h4>
-                                <pre class="text-white pre-code">
-                                    fn main() {
-                                        for i in 1..10 {
-                                            println!("---- Table de {} ----", i);
-                                            for j in 0..10 {
-                                                println!("{} x {} = {}", i, j, i*j);
-                                            }
-                                        }
-                                    }
-                                </pre>
+                                <img src="assets/img/tablemulti.PNG" alt="code table mutliplication" class="w-75">
                                 <hr class="d-none d-lg-block mb-0 mr-0" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Programme 3 -->
-            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <!-- Programme 3-->
+            <div class="row justify-content-center no-gutters bg-black">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/programme3.JPG" alt="" /></div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 ">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                            <div class="project-text w-100 my-auto text-center text-lg-left pb-0">
                                 <h4 class="text-white">Saisir une valeur et l’afficher</h4>
-                                <pre class="text-white pre-code">
-                                    fn main() {
-                                        let mut nom = String::new();
-                                        println!("Entrez votre nom :");
-                                    
-                                        // Enregistrer la saisie dans la valeur à l'adresse mémoire de "nom"
-                                        std::io::stdin().read_line(&mut nom).unwrap();
-                                        println!("Salut {}", nom);
-                                    }
-                                </pre>
+                                <img src="assets/img/afficher.PNG" alt="code afficher valeur" class="w-75">
                                 <hr class="d-none d-lg-block mb-0 ml-0" />
                             </div>
                         </div>
@@ -306,10 +271,11 @@
                 </div>
             </div>
         </div>
-    </section>
+</section>
+
 
     <!-- Succès -->
-    <section class="about-section bg-black text-center" id="succes">
+    <section class="about-section text-center" id="succes">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
@@ -319,20 +285,26 @@
                     </p>
                 </div>
             </div>
+            <img class="img-fluid" src="assets/img/ipad.png" alt="" />
         </div>
     </section>
 
     <!-- Sources -->
-    <section class="about-section bg-black text-center" id="sources">
+    <section class="about-section text-center" id="sources">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white mb-4">Sources</h2>
-                    <p class="text-white-50">
-                        Peut-être mettre les sources sur une autre page ????
-                    </p>
+                    <h2 class="text-white mb-4">Bibliographie</h2>
+                    <p class="text-white-50 border border-ligh pt-2 pb-2">
+                        Auteur, Article, Date : <a href="#">Ma source</a><br>
+                        Auteur, Article, Date : <a href="#">Ma source</a><br>
+                        Auteur, Article, Date : <a href="#">Ma source</a><br>
+                        Auteur, Article, Date : <a href="#">Ma source</a><br>
+                        Auteur, Article, Date : <a href="#">Ma source</a><br>
+                    </p> 
                 </div>
             </div>
+            <img class="img-fluid" src="assets/img/ipad.png" alt="" />
         </div>
     </section>
 
