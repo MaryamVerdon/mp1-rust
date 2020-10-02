@@ -90,6 +90,13 @@ p {
   margin-bottom: 1rem;
 }
 
+/*fond*/
+#outils ,  #utilisation {
+  background-image: url("../assets/img/fond2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
 
 abbr[title],
 abbr[data-original-title] {
