@@ -1,3 +1,3 @@
 # web
 
-Site web statique
+Site web statique présentant le langage de programmation RUST.
